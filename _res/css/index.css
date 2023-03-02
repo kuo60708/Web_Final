@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    /* 背景 */
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,1) 100%), url(https://i.pinimg.com/originals/b8/1a/a4/b81aa44ba47c8ebb93c4525a96904101.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+header nav ul li {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 0px 10px;   
+}
+
+
+.nav-item {
+    position:relative;
+  }
+  .nav-item :after{
+    content:" ";
+    position: absolute;
+    right:50%;
+    left:50%;
+    bottom:-5px;
+    border-bottom:4px solid rgb(123, 20, 240);
+    transition: .3s;
+  }
+  .nav-item :hover::after{
+    right:0%;
+    left:0%;
+  }
+
+  #banner {
+    height: 500px;
+    background-image: url(../../_img/Mineral\ Town.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    
+  }
+  
+
